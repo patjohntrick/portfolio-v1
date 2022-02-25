@@ -1,23 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Hero from "./components/Hero/Hero";
+import Navigation from "./components/Navigation/Navigation";
+import Sections from "./components/Sections/Sections";
 
 function App() {
+  const [navBar, setNavBar] = useState(false);
+
+  const handleNavBar = () => {
+    setNavBar(!navBar);
+  };
+  console.log(navBar);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App ">
+      <Navigation navBar={navBar} handleNavBar={handleNavBar} />
+      <Hero />
+      <Sections />
     </div>
   );
 }
