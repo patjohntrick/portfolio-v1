@@ -7,7 +7,7 @@ const Works = () => {
   const FoodishWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[170px] xs:h-[180px] xs:w-[90%] sm:w-full sm:h-[180px] m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
           <img
             src={foodish}
             alt=""
@@ -36,7 +36,7 @@ const Works = () => {
   const WeatherWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[170px] xs:h-[180px] xs:w-[90%] sm:w-full sm:h-[180px] m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
           <img
             src={weather}
             alt="https://patjohntrick.github.io/weather-app/"
@@ -51,7 +51,7 @@ const Works = () => {
           </p>
           <div className="btn-link text-center">
             <a
-              href=""
+              href="https://patjohntrick.github.io/weather-app/"
               target="_blank"
               className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900"
             >
@@ -65,7 +65,7 @@ const Works = () => {
   const SpeakleWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[170px] xs:h-[180px] xs:w-[90%] sm:w-full sm:h-[180px] m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
           <img
             src={speakle}
             alt=""
@@ -92,7 +92,7 @@ const Works = () => {
     );
   };
   return (
-    <section className=" bg-slate-100 py-16 ">
+    <section className=" bg-zinc-100 py-16 ">
       <div className="text-container ">
         <div className="text-header-container text-center mb-12">
           <p className=" uppercase font-bold text-fuchsia-800 ">works</p>

@@ -15,7 +15,7 @@ const About = () => {
     return (
       <div className="about lg:w-[50%]">
         <p className=" uppercase text-fuchsia-800 font-bold mb-2 ">who am i?</p>
-        <p className=" text-slate-800 mb-5 ">
+        <p className=" text-zinc-800 mb-5 ">
           My name <span className=" font-bold">John Patrick Resurreccion</span>
           , I am passionate Front End Web Developer that loves to create
           solutions using web technologies. I am currently studying at STI
@@ -47,7 +47,7 @@ const About = () => {
             return (
               <p
                 key={skill}
-                className=" bg-slate-200 font-bold px-4 py-2 w-auto rounded text-slate-700 text-sm"
+                className=" bg-zinc-200 font-bold px-4 py-2 w-auto rounded text-zinc-700 text-sm"
               >
                 {skill}
               </p>

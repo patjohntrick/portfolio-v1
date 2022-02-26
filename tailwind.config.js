@@ -21,7 +21,22 @@ module.exports = {
       "2xl": "1536px",
       // => @media (min-width: 1536px) { ... }
     },
-    extend: {},
+    extend: {
+      animation: {
+        toptobot: "toptobot .5s",
+        bottotop: "bottotop .5s",
+      },
+      keyframes: {
+        toptobot: {
+          "0%": { transform: "translateY(-70%)" },
+          "100%": { transform: "translateY(0) " },
+        },
+        bottotop: {
+          "0%": { transform: "translateY(0)" },
+          "100%": { transform: "translateY(-70%)" },
+        },
+      },
+    },
   },
   plugins: [],
 };

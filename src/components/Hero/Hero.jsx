@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="img-container h-screen">
         <img src={hero} alt="" className="h-full object-cover w-full" />
       </div>
-      <div className="overlay absolute top-0 w-full h-screen bg-stone-900/70"></div>
+      <div className="overlay absolute top-0 w-full h-screen bg-neutral-900/80"></div>
       <div className=" text-container absolute top-0 w-full h-full grid place-items-center">
         <div className=" w-[90%] sm:w-auto ">
           <p className="font-semibold text-fuchsia-800">Hello there,</p>
