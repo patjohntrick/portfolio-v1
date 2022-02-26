@@ -22,7 +22,7 @@ const Contact = () => {
   const ImgOverlay = () => {
     return (
       <div className="contact">
-        <div className="img-container absolute w-full h-auto top-[-40%] -z-20">
+        <div className="img-container absolute w-full h-auto top-[-250px] lg:top-[-440px] -z-20">
           <img src={hero} alt="" className="w-full object-cover h-[1400px]" />
         </div>
         <div className="overlay absolute w-full bg-neutral-900/80 top-0 h-[1500px] -z-10"></div>
@@ -34,24 +34,27 @@ const Contact = () => {
       <div className="form-container lg:w-[50%]">
         <form
           action=""
-          className=" bg-neutral-900/70 p-5 rounded shadow-lg w-[285px] m-auto space-y-4 xs:w-[320px] lg:w-[350px] lg:p-7"
+          className=" bg-neutral-900/70 p-5 rounded shadow-md w-[285px] m-auto space-y-4 xs:w-[320px] lg:w-[350px] lg:p-7"
         >
           <input
             type="text"
             placeholder="Name"
             className=" w-full p-3 font-semibold text-sm bg-neutral-600/20 text-neutral-300 rounded outline-none border-none placeholder:text-neutral-500"
+            required
           />{" "}
           <br />
           <input
             type="email"
             placeholder="Email"
             className=" w-full p-3 font-semibold text-sm bg-neutral-600/20 text-neutral-300 rounded outline-none border-none placeholder:text-neutral-500"
+            required
           />
           <br />
           <input
             type="text"
             placeholder="Subject"
             className=" w-full p-3 font-semibold text-sm bg-neutral-600/20 text-neutral-300 rounded outline-none border-none placeholder:text-neutral-500"
+            required
           />
           <br />
           <textarea
@@ -61,13 +64,14 @@ const Contact = () => {
             cols="30"
             rows="8"
             className=" w-full p-3 font-semibold text-sm bg-neutral-600/20 text-neutral-300 rounded outline-none border-none placeholder:text-neutral-500"
+            required
           ></textarea>
           <br />
           <div className=" flex justify-center ">
             <input
               type="submit"
               value="Submit"
-              className=" px-11 py-3 text-sm font-bold bg-fuchsia-800 text-white cursor-pointer hover:bg-fuchsia-900 transition-all rounded shadow "
+              className=" px-11 py-3 text-sm font-bold bg-fuchsia-800 text-white cursor-pointer hover:bg-fuchsia-900 transition-all rounded shadow uppercase "
             />
           </div>
         </form>

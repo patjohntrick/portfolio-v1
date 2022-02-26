@@ -10,7 +10,6 @@ function App() {
   const handleNavBar = () => {
     setNavBar(!navBar);
   };
-  console.log(navBar);
 
   window.addEventListener("scroll", () => {
     const windowScroll = window.scrollY;
@@ -22,13 +21,14 @@ function App() {
   });
   // const scrollY = window.pageYOffset;
   // console.log(scrollY);
-  console.log(navBarVisual);
+  // console.log(navBarVisual);
   return (
     <div className="App ">
       <Navigation
         navBar={navBar}
         handleNavBar={handleNavBar}
         navBarVisual={navBarVisual}
+        setNavBar={setNavBar}
       />
       <Hero />
       <Sections />

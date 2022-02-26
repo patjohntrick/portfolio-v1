@@ -14,7 +14,7 @@ const Hero = () => {
           <p className="font-semibold text-fuchsia-800">Hello there,</p>
           <p className="text-white font-bold text-4xl mb-6 md:text-4xl lg:text-5xl lg:leading-tight">
             I am John Patrick Resurreccion. <br />
-            Aspiring{" "}
+            An Aspiring{" "}
             <span className="text-fuchsia-800">Front End Developer</span>
           </p>
           <a

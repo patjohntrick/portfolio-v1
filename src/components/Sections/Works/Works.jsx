@@ -7,7 +7,7 @@ const Works = () => {
   const FoodishWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[160px] xs:w-[90%] sm:w-full md:w-[95%] m-auto mb-10">
           <img
             src={foodish}
             alt=""
@@ -24,7 +24,7 @@ const Works = () => {
             <a
               href="https://patjohntrick.github.io/foodish/"
               target="_blank"
-              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900"
+              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900 shadow-md hover:shadow-lg"
             >
               visit now
             </a>
@@ -36,7 +36,7 @@ const Works = () => {
   const WeatherWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[160px] xs:w-[90%] sm:w-full md:w-[95%]  m-auto mb-10">
           <img
             src={weather}
             alt="https://patjohntrick.github.io/weather-app/"
@@ -53,7 +53,7 @@ const Works = () => {
             <a
               href="https://patjohntrick.github.io/weather-app/"
               target="_blank"
-              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900"
+              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900 shadow-md hover:shadow-lg"
             >
               visit now
             </a>
@@ -65,7 +65,7 @@ const Works = () => {
   const SpeakleWork = () => {
     return (
       <div className="work-box bg-white shadow rounded p-5 pb-9 w-[285px] xs:w-[320px] m-auto hover:shadow-lg transition-all">
-        <div className="img-container w-[100%] h-[145px] xs:h-[170px] xs:w-[90%] sm:w-full m-auto mb-10">
+        <div className="img-container w-[100%] h-[145px] xs:h-[160px] xs:w-[90%] sm:w-full md:w-[95%]  m-auto mb-10">
           <img
             src={speakle}
             alt=""
@@ -82,7 +82,7 @@ const Works = () => {
             <a
               href="https://speakle.herokuapp.com/"
               target="_blank"
-              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900"
+              className=" py-3 px-8 rounded uppercase font-bold text-sm bg-fuchsia-800 text-white transition-all hover:bg-fuchsia-900 shadow-md hover:shadow-lg"
             >
               visit now
             </a>
@@ -100,7 +100,7 @@ const Works = () => {
             personal projects
           </p>
           <p className=" text-slate-800 text-sm font-semibold ">
-            Projects that I created to practice my skills
+            Projects that I've created to improve my skills
           </p>
         </div>
       </div>
