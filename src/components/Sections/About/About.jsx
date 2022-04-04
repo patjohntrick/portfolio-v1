@@ -27,8 +27,9 @@ const About = () => {
           play online games. I also sing and play guitar.
         </p>
         <a
-          href=""
+          href="https://www.messenger.com/t/100002807494697"
           className="uppercase text-fuchsia-800 border-2 border-fuchsia-800 hover:bg-fuchsia-800 hover:border-fuchsia-800 hover:text-white hover:shadow-lg transition-all px-9 py-3 rounded text-sm font-bold"
+          target="_blank"
         >
           contact
         </a>

@@ -7,13 +7,13 @@ function App() {
   const [navBar, setNavBar] = useState(false);
   const [navBarVisual, setNavBarVisual] = useState(false);
 
-  const handleNavBar = () => {
+  const handleNavBar = (e) => {
     setNavBar(!navBar);
   };
 
   window.addEventListener("scroll", () => {
-    const windowScroll = window.scrollY;
-    if (windowScroll >= 600) {
+    const windowScrollY = window.scrollY;
+    if (windowScrollY >= 600) {
       setNavBarVisual(true);
     } else {
       setNavBarVisual(false);

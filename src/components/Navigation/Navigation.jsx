@@ -176,7 +176,7 @@ const Navigation = ({ navBar, handleNavBar, navBarVisual, setNavBar }) => {
             </ul>
           </div>
           <div
-            className="bar-container text-slate-300 text-xl sm:hidden cursor-pointer"
+            className="bar-container text-slate-300 text-xl sm:hidden cursor-pointer overflow-hidden"
             onClick={handleNavBar}
           >
             {navBar ? <FaTimes /> : <FaBars />}
